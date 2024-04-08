@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- Custome Style -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Add Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>BookMark</title>
+  </head>
+
+  <body>
+    <!-- Home page -->
+    <section class="home vh-100">
+      <div class="container text-center pt-5">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="item">
+              <div
+                class="row custom-shadow rounded flex-column justify-content-center py-5"
+              >
+                <div class="col">
+                  <div class="px-4">
+                    <h1 class="heading-font display-3 fw-medium">
+                      Smart Login System
+                    </h1>
+                  </div>
+                </div>
+                <div class="col my-3 custom-control">
+                  <div class="px-4">
+                    <form action="">
+                      <input
+                        type="email"
+                        class="email form-control custom-input my-2"
+                        name="email"
+                        id="email"
+                        placeholder="Enter Your Email"
+                      />
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="password form-control custom-input"
+                        placeholder="Enter Your Pssword"
+                      />
+                      <p class="error-msg d-none text-danger pt-2">
+                        All iputs are required
+                      </p>
+                      <a
+                        href=""
+                        type=" submit"
+                        class="from-login-to form-control mt-4 btn btn-outline-info"
+                      >
+                        Login
+                      </a>
+                    </form>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="item-para text-white px-2 py-3">
+                    <p>
+                      Don’t have an account?
+                      <a
+                        href="./signup.html"
+                        class="sign-up custom-anchor text-decoration-none text-white"
+                        >Sign Up</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+                        <div class="col">.
+                        <input type="text" 
+                        class="form-control" name="email" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="col">.
+                        <input type="text" name="password" id="password" 
+                        class="form-control" placeholder="Enter Your Pssword">
+                    </div>
+ -->

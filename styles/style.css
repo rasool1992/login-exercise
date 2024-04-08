@@ -1,0 +1,56 @@
+:root {
+  --heading-font: "Titillium Web", sans-serif;
+  --body-font: "Titillium Web", sans-serif;
+  --main-color: #24353f;
+  --light-blue: #17a2b8;
+}
+body {
+  background-color: var(--main-color);
+}
+.custom-shadow {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+
+.home,
+.home.item,
+.home.col {
+  background-color: var(--main-color);
+}
+.home h1 {
+  color: var(--light-blue);
+}
+.home .custom-shadow {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.custom-control .custom-input {
+  background-color: transparent !important;
+  color: white;
+  border: 1px solid #ced4da !important;
+}
+.custom-control .custom-input:focus {
+  box-shadow: none;
+  border: 1px solid #80bdff !important;
+}
+.custom-control .custom-input::placeholder {
+  color: #ced4da;
+}
+
+.custom-control .btn-outline-info {
+  border: 1px solid var(--text-light-blue);
+  color: var(--light-blue);
+}
+.custom-control .btn-outline-info:hover {
+  background-color: var(--text-light-blue);
+  color: white;
+}
+.custom-anchor:hover {
+  text-decoration: underline !important;
+}
+nav {
+  background-color: var(--main-color);
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.welcome h1 {
+  background-color: var(--main-color);
+}
